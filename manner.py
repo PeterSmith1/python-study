@@ -15,5 +15,9 @@ b = 10
 c = 0
 if a == b:
  print("a等于b")
-
-
+else:
+ print("a不等于b")
+if a > b:
+ print("a大于b")
+else:
+ print("a小于b")
