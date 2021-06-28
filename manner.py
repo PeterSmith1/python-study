@@ -9,7 +9,7 @@ print(num2)
 print(num3)
 
 
-# 选择、循环
+# 选择
 a = 21
 b = 10
 c = 0
@@ -21,3 +21,6 @@ if a > b:
  print("a大于b")
 else:
  print("a小于b")
+# 运算
+sum = a+b
+print(sum)
