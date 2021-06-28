@@ -42,3 +42,4 @@ while (i < 100):
  if (j > i / j):
   print(i,"是素数")
  i = i + 1
+
