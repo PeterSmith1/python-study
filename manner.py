@@ -26,9 +26,20 @@ sum = a+b
 print(sum)
 
 # 循环
-i = 1
-j = 1
-while(i < 11):
- j=j*i  #计算10！
- i = i+1
-print(j)
+number1 = 1
+number2 = 1
+while(number1 < 11):
+ number2=number2*number1  #计算10！
+ number1 = number1+1
+print(number2)
+
+# 计算素数
+i = 2
+while (i < 100):
+ j = 2
+ while (j <= (i / j)):
+  if not (i % j):break
+  j = j + 1
+ if (j > i / j):
+  print(i,"是素数")
+ i = i + 1
