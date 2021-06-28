@@ -24,3 +24,11 @@ else:
 # 运算
 sum = a+b
 print(sum)
+
+# 循环
+i = 1
+j = 1
+while(i < 11):
+ j=j*i  #计算10！
+ i = i+1
+print(j)
