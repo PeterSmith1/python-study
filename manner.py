@@ -33,7 +33,7 @@ while(number1 < 11):
  number1 = number1+1
 print(number2)
 
-# 计算素数
+# 计算素数,循环嵌套
 i = 2
 while (i < 100):
  j = 2
@@ -43,3 +43,8 @@ while (i < 100):
  if (j > i / j):
   print(i,"是素数")
  i = i + 1
+# python continue语句
+for letter in 'python':
+ if letter == 'h':
+  continue
+ print(letter)
