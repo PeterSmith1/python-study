@@ -34,15 +34,16 @@ while(number1 < 11):
 print(number2)
 
 # 计算素数,循环嵌套
-i = 2
-while (i < 100):
- j = 2
- while (j <= (i / j)):
-  if not (i % j):break
-  j = j + 1
- if (j > i / j):
-  print(i,"是素数")
- i = i + 1
+# i = 2
+# while (i < 100):
+#  j = 2
+#  while (j <= (i / j)):
+#   if not (i % j):break
+#   j = j + 1
+#  if (j > i / j):
+#   print(i,"是素数")
+#  i = i + 1
+
 # python continue语句
 for letter in 'python':
  if letter == 'h':
@@ -81,5 +82,15 @@ print(dict['a'])
 # 时间与日期
 import time
 print(time.strftime("%Y-%m-%d %H:%M:%S"),time.localtime())
+
+#python 不定参数，可以处理更多参数。python会自动匹配
+# def printinfo(arg1,*vartuple):
+#  print(arg1)
+#  for var in vartuple:
+#   print(var)
+# printinfo(10)
+# printinfo(10,20,30,40)
+
+
 
 
